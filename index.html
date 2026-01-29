@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Intro -->
+  <section class="py-12 text-center">
+    <h1 class="text-4xl font-bold mb-4">Portfolio</h1>
+    <p class="text-lg max-w-2xl mx-auto text-gray-700">
+      These are selected side projects undertaken to explore topics outside my main research in theoretical quantum physics. They demonstrate my interest in computational modeling, simulation, optimization, and environmental data analysis. While some projects stem from coursework or small exercises, they reflect my curiosity and willingness to apply programming and analytical skills to new domains.
+    </p>
+  </section>
+
+  <!-- Projects Grid -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+    <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+
+      <!-- Project 1 -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <img src="figures/quantum_particle.png" alt="Quantum Particle" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Optimal Control of a Levitated Quantum Particle</h3>
+          <p class="text-gray-700 mb-4">Designed static potentials to enhance quantum behavior in a levitated particle. Simulated the particle’s time evolution and analyzed its Wigner function using Python workflows for modeling, propagation, and constrained optimization.</p>
+          <a href="https://github.com/username/quantum_particle" class="text-blue-600 font-medium hover:underline">View Repository →</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <img src="figures/magnonic_pulses.png" alt="Magnonic Pulses" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Inverse Design of Pulses in Magnonic Waveguides</h3>
+          <p class="text-gray-700 mb-4">Developed pulses for magnonic waveguides using GPU-accelerated simulations. Combined numerical modeling with optimization techniques to shape pulses for controlling magnon dynamics.</p>
+          <a href="https://github.com/username/magnonic_pulses" class="text-blue-600 font-medium hover:underline">View Repository →</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <img src="figures/qubit_pulses.png" alt="Qubit Pulses" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Pulse Design for Qubit Control in Waveguides</h3>
+          <p class="text-gray-700 mb-4">Designed electromagnetic pulses to manipulate qubits in a waveguide using analytical modeling and GPU-accelerated simulations. Collaborated with experimentalists, and the predicted pulses were successfully implemented in the laboratory.</p>
+          <a href="https://github.com/username/qubit_pulses" class="text-blue-600 font-medium hover:underline">View Repository →</a>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <img src="figures/wildfire_ndvi.png" alt="Wildfire NDVI" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Wildfire Impact and Vegetation Regeneration</h3>
+          <p class="text-gray-700 mb-4">A small Earth Observation project analyzing a wildfire in a chosen region of the Mediterranean. Tracked vegetation dynamics before, immediately after, and two years later using NDVI maps. This was a basic project, intended as a learning exercise, and not comparable in scope to my professional research work.</p>
+          <a href="https://github.com/username/wildfire_analysis" class="text-blue-600 font-medium hover:underline">View Repository →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
